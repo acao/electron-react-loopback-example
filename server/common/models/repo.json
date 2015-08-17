@@ -1,0 +1,17 @@
+{
+  "name": "Repo",
+  "base": "PersistedModel",
+  "properties": {
+    "id": {
+      "id": true,
+      "type": "string",
+      "defaultFn": "guid"
+    },
+    "title": "string",
+    "url": "string",
+    "forks": "number",
+    "created": {
+      "type": "number"
+    }
+  }
+}
